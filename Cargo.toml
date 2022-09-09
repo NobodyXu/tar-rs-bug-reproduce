@@ -5,4 +5,4 @@ edition = "2021"
 
 [dependencies]
 flate2 = { version = "1.0.24", features = ["zlib-ng"], default-features = false }
-tar = "0.4.38"
+tar = { git = "https://github.com/ncihnegn/tar-rs" }
